@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #b28c8c;
+  background-color: #e6adec;
 }
 
 .container {
@@ -20,9 +20,9 @@ body {
 .calc {
   padding: 20px;
   border-radius: 20px;
-  background: transparent;
+  background-color: #e6adec;
   border: none;
-  box-shadow: -1px -1px 10px rgba(55, 33, 33, 0.8);
+  box-shadow: -1px -1px 10px rgba(46, 149, 181, 0.8);
 }
 
 #input {
@@ -48,10 +48,10 @@ button {
   border-radius: 50%;
   background: transparent;
   cursor: pointer;
-  box-shadow: 6px 6px 10px rgb(54, 38, 38), -6px -6px 10px rgb(52, 38, 38);
+  box-shadow: 6px 6px 10px rgb(132, 160, 186), -6px -6px 10px rgb(178, 208, 225);
 }
 
-.new {
-  box-shadow: inset 6px 6px 10px rgba(57, 38, 38, 0.5),
-    inset -6px -6px 10px rgba(51, 36, 36, 0.5);
+.btn {
+  box-shadow: inset 6px 6px 10px rgba(148, 185, 211, 0.5),
+    inset -6px -6px 10px rgba(147, 173, 188, 0.5);
 }
