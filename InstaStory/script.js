@@ -36,17 +36,15 @@ const story = document.querySelector("#storian");
 story.innerHTML = filler;
 
 // let fullScreen = document.querySelector("#full-screen");
-
+const fullScreen = document.querySelector("#full-screen");
 story.addEventListener("click", (e) => {
-  document.querySelector("#full-screen").style.display = "block";
-  img[e.target.id].story;
-  img[e.target.id].story;
-  document.querySelector("#full-screen").style.backgroundImage = `url(${
-    img[e.target.id].story
-  }
+  fullScreen.style.display = "block";
+  // img[e.target.id].story;
+  // img[e.target.id].story;
+  fullScreen.style.backgroundImage = `url(${img[e.target.id].story}
   )`;
 
   setTimeout(() => {
-    document.querySelector("#full-screen").style.display = "none";
+    fullScreen.style.display = "none";
   }, 2000);
 });
