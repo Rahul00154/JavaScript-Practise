@@ -43,7 +43,7 @@ body {
 
 .form-control span {
   display: block;
-  visibility: hidden;
+  font-size: 0.6rem;
 }
 
 .form-control input {
@@ -78,5 +78,6 @@ input:focus {
   transition: ease 2s;
 }
 
-
-
+.form-control span {
+  color: #e74c3c;
+}
